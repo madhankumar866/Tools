@@ -16,8 +16,8 @@ try {
 	
 	$mailbox='INBOX';
 	$host='{imap.gmail.com:993/imap/ssl}' . $mailbox;
-	$user='sathishseedmail@gmail.com';
-	$pass='syhinsnedbqmtjyb';
+	$user='*******@gmail.com';
+	$pass='*******';
 	$imap=mailStream($host,$user,$pass);
 	
 	$check = imap_check($imap);
